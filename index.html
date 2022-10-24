@@ -56,33 +56,33 @@
 		// fault types and color specs
  var faultColors = {
 		 //normal and subtypes (red)
-		 'Normal': "#e41a1c",
-		 'Normal-Dextral': "#e41a1c",
-		 'Normal-Sinistral': "#e41a1c",
-		 'Normal-Strike-Slip': "#e41a1c",
+		 'Normal': "#1b9e77",
+		 'Normal-Dextral': "#1b9e77",
+		 'Normal-Sinistral': "#1b9e77",
+		 'Normal-Strike-Slip': "#1b9e77",
 		 //reverse and subtypes (blue)
-		 'Reverse': "#377eb8",
-		 'Reverse-Dextral': "#377eb8",
-		 'Reverse-Sinistral': "#377eb8",
-		 'Reverse-Strike-Slip': "#377eb8",
+		 'Reverse': "#d95f02",
+		 'Reverse-Dextral': "#d95f02",
+		 'Reverse-Sinistral': "#d95f02",
+		 'Reverse-Strike-Slip': "#d95f02",
 		 //sinistral and subtypes (green)
-		 'Sinistral': "#4daf4a",
-		 'Sinistral Transform': "#4daf4a",
-		 'Sinistral-Normal': "#4daf4a",
-		 'Sinistral-Reverse': "#4daf4a",
+		 'Sinistral': "#7570b3",
+		 'Sinistral Transform': "#7570b3",
+		 'Sinistral-Normal': "#7570b3",
+		 'Sinistral-Reverse': "#7570b3",
 		 //dextral and subtypes (purple)
-		 'Dextral': "#984ea3",
-		 'Dextral Transform': "#984ea3",
-		 'Dextral-Normal': "#984ea3",
-		 'Dextral-Oblique': "#984ea3",
-		 'Dextral-Reverse': "#984ea3",
+		 'Dextral': "#e7298a",
+		 'Dextral Transform': "#e7298a",
+		 'Dextral-Normal': "#e7298a",
+		 'Dextral-Oblique': "#e7298a",
+		 'Dextral-Reverse': "#e7298a",
 		 //other fault types (orange)
-		 'Anticline': '#ff7f00',
-		 'Blind Thrust': "#ff7f00",
-		 'Spreading Ridge': "#ff7f00",
-		 'Strike-Slip': "#ff7f00",
-		 'Subduction Thrust': "#ff7f00",
-		 'Syncline': "#ff7f00",
+		 'Anticline': '#66a61e',
+		 'Blind Thrust': "#66a61e",
+		 'Spreading Ridge': "#66a61e",
+		 'Strike-Slip': "#66a61e",
+		 'Subduction Thrust': "#66a61e",
+		 'Syncline': "#66a61e",
  };
 		// add the fault line data to the map as a layer
 		L.geoJson(faults, {
@@ -106,31 +106,31 @@
 					{
 						label: "Normal",
 		        		type: "polyline",
-		        		color: "#e41a1c",
+		        		color: "#1b9e77",
 						weight: 4
 		    		},
 					{
 						label: "Reverse",
 						type: "polyline",
-						color: "#377eb8",
+						color: "#d95f02",
 						weight: 4
 					},
 					{
 						label: "Sinistral",
 						type: "polyline",
-						color: "#4daf4a",
+						color: "#7570b3",
 						weight: 4
 					},
 					{
 						label: "Dextral",
 						type: "polyline",
-						color: "#984ea3",
+						color: "#e7298a",
 						weight: 4
 					},
 					{
 						label: "Other Specified Types",
 						type: "polyline",
-						color: "#ff7f00",
+						color: "#66a61e",
 						weight: 4
 					},
 					{
